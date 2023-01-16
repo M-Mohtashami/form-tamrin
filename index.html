@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="rightSide">
+        <header>
+          <h4>حساب کاربری</h4>
+        </header>
+        <form>
+          <label for="firstName">نام</label><br />
+          <input type="text" id="firstName" /><br />
+          <label for="lastName">نام خانوادگی</label><br />
+          <input type="text" id="lastName" /><br />
+          <label for="email">ایمیل</label><br />
+          <input type="email" id="email" /><br />
+          <label for="phone">تلفن</label><br />
+          <input type="number" id="phone" /><br />
+          <button type="submit">عضویت</button>
+        </form>
+      </div>
+
+      <div class="mainPane">
+        <table>
+          <thead>
+            <tr>
+              <th>حذف</th>
+              <th>ویرایش</th>
+              <th>ID</th>
+              <th>نام</th>
+              <th>نام خانوادگی</th>
+              <th>ایمیل</th>
+              <th>تلفن</th>
+            </tr>
+          </thead>
+
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <!-- <ion-icon name="close-outline"></ion-icon>
+    <ion-icon name="clipboard-outline"></ion-icon> -->
+    <script src="js/main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

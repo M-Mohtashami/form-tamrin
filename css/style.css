@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "iransans";
+  src: url("/fonts/IranianSans.ttf");
+  font-weight: 100 900;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: rgb(92, 43, 226);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "iransans";
+}
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 1em;
+}
+.rightSide {
+  background-color: #fff;
+  width: 30%;
+  height: auto;
+  align-self: flex-start;
+  justify-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1em;
+  border-radius: 7px;
+}
+.rightSide header {
+  background-color: hwb(0 96% 4%);
+  padding: 3%;
+  width: 100%;
+  border-radius: 7px 7px 0px 0px;
+}
+.rightSide form {
+  width: 90%;
+  height: 80%;
+  margin: 1rem;
+}
+.rightSide button,
+input {
+  width: 100%;
+  margin: 0.5rem 0px;
+}
+.rightSide button {
+  background-color: rgb(93, 0, 255);
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+.rightSide input {
+  background-color: #f2f2f2;
+  border: 1px solid rgba(211, 211, 211, 0.516);
+  padding: 0.4em;
+  border-radius: 4px;
+}
+.rightSide label {
+  color: rgb(85, 85, 85);
+}
+.mainPane {
+  align-self: flex-start;
+  background-color: white;
+  width: 70%;
+  height: auto;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  margin-top: 0.1em;
+  margin-left: 1em;
+}
+.mainPane table {
+  width: 100%;
+  /* border: none; */
+  margin: 1em 0px;
+  /* outline: none; */
+}
+.mainPane table thead tr {
+  border-bottom: 1px solid lightgrey;
+}
+.mainPane table,
+td,
+th {
+  text-align: center;
+  padding: 0.5em;
+  border-collapse: collapse;
+  border: none;
+}
+
+.delete:hover {
+  color: hsl(0, 100%, 50%);
+}
+.edit:hover {
+  color: green;
+}
