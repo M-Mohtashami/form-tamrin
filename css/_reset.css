@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  max-width: 1440px;
+  height: auto;
+}
+body {
+  background-color: rgb(43, 156, 226);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "iransans";
+}
