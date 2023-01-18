@@ -1,3 +1,9 @@
+:root {
+  --primery: rgb(43, 156, 226);
+  --text-color: rgb(77, 77, 77);
+  --bgc-delete: rgba(255, 0, 0, 0.419);
+  --bgc-modifiy: rgba(0, 255, 0, 0.419);
+}
 *,
 *::after,
 *::before {
@@ -10,10 +16,15 @@ body {
   max-width: 1440px;
   height: auto;
 }
+html {
+  font-size: 62.5%;
+}
 body {
-  background-color: rgb(43, 156, 226);
+  background-color: var(--primery);
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "iransans";
+  font-size: 1.6rem;
+  color: var(--text-color);
 }
